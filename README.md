@@ -51,12 +51,17 @@ Kurikulum ini tidak hanya mengajarkan "cara memanggil library", tapi membangun *
   │  07 · MLOps & Deployment  │
   └────────────┬─────────────┘
                │
+  ┌────────────▼────────────┐            ┌──────────────────────────────────────────┐
+  │  14 · Proyek End-to-End  │◀···········│  CAPSTONE: satukan semua jadi 1 alur       │
+  │     (Production-Grade)   │            │  kerja production-grade (butuh 01–03,07,09) │
+  └────────────┬────────────┘            └──────────────────────────────────────────┘
+               │
   ┌────────────▼────────────┐
   │  08 · Projects & Karier  │
   └─────────────────────────┘
 ```
 
-**Cara membaca:** ikuti **jalur inti 00→08 berurutan** (05/06 pilih sesuai minat). Modul **09–13** adalah topik terapan yang **dikerjakan paralel** begitu prasyaratnya terpenuhi — bukan setelah selesai semua.
+**Cara membaca:** ikuti **jalur inti 00→14→08 berurutan** (05/06 pilih sesuai minat). Modul **09–13** adalah topik terapan yang **dikerjakan paralel** begitu prasyaratnya terpenuhi. Modul **14** adalah **capstone** — kerjakan setelah paham 01–03 + evaluasi (09), untuk menyatukan semuanya jadi satu proyek nyata.
 
 ---
 
@@ -77,6 +82,7 @@ Kurikulum ini tidak hanya mengajarkan "cara memanggil library", tapi membangun *
 | 11 | [Time Series Forecasting](./11-time-series/README.md) | Komponen deret, fitur lag/rolling, validasi kronologis, ARIMA, XGBoost, Prophet, deep learning | 2 minggu |
 | 12 | [SQL untuk AI/ML Engineer](./12-sql-untuk-ml/README.md) | Query, agregasi, JOIN, window functions, feature engineering di SQL, SQL→Pandas | 1–2 minggu |
 | 13 | [Performa & Concurrency Python](./13-python-performance/README.md) | Vectorization vs loop, memory/dtype, profiling, GIL, threading/multiprocessing/asyncio, pola paralel ML | 1–2 minggu |
+| 14 | [Proyek End-to-End (Production-Grade)](./14-end-to-end-production/README.md) | Capstone: ingest→validasi→split→baseline→Pipeline anti-leakage→tuning→evaluasi→persist+metadata→serving | 1–2 minggu |
 | 08 | [Projects & Roadmap Karier](./08-projects-karier/README.md) | Portfolio project end-to-end, persiapan interview, roadmap | berkelanjutan |
 
 > 📌 Modul **09–13** adalah topik terapan yang bisa dikerjakan paralel: **09** (diagnosis & menjelaskan model) melengkapi setiap modul modeling; **10** (data timpang) krusial untuk fraud/churn/medis; **11** (time series) untuk masalah berbasis waktu; **12** (SQL) skill harian menarik & menyiapkan data; **13** (performa & concurrency) untuk menulis kode yang cepat & scalable — penting saat naik ke level engineering/produksi.
