@@ -20,41 +20,43 @@ Kurikulum ini tidak hanya mengajarkan "cara memanggil library", tapi membangun *
 ## 🗺️ Peta Belajar (Learning Path)
 
 ```
-                          ┌─────────────────────────┐
-                          │  00 · Prasyarat          │
-                          │  Python + Matematika     │
-                          └────────────┬────────────┘
-                                       │
-                          ┌────────────▼────────────┐
-                          │  01 · Fondasi ML         │
-                          │  Konsep inti & workflow  │
-                          └────────────┬────────────┘
-                                       │
-                          ┌────────────▼────────────┐
-                          │  02 · Data & Features    │
-                          └────────────┬────────────┘
-                                       │
-                          ┌────────────▼────────────┐
-                          │  03 · Classical ML       │
-                          └────────────┬────────────┘
-                                       │
-                          ┌────────────▼────────────┐
-                          │  04 · Deep Learning      │
-                          └──────┬──────────┬────────┘
-                                 │          │
-                  ┌──────────────▼──┐    ┌──▼──────────────┐
-                  │ 05 · NLP & LLM  │    │ 06 · Computer   │
-                  │                 │    │      Vision     │
-                  └──────────────┬──┘    └──┬──────────────┘
-                                 │          │
-                          ┌──────▼──────────▼────────┐
-                          │  07 · MLOps & Deployment  │
-                          └────────────┬─────────────┘
-                                       │
-                          ┌────────────▼────────────┐
-                          │  08 · Projects & Karier  │
-                          └─────────────────────────┘
+        JALUR INTI (urutkan)                    TOPIK TERAPAN (paralel, sesuai kebutuhan)
+  ┌─────────────────────────┐
+  │  00 · Prasyarat          │            ┌──────────────────────────────────────────┐
+  │  Python + Matematika     │            │  12 · SQL untuk ML                         │
+  └────────────┬────────────┘  ··········▶│      (bisa mulai sejak Modul 02)           │
+               │                          ├──────────────────────────────────────────┤
+  ┌────────────▼────────────┐            │  13 · Performa & Concurrency Python        │
+  │  01 · Fondasi ML         │            │      (vectorization, GIL, paralel)         │
+  └────────────┬────────────┘            └──────────────────────────────────────────┘
+               │
+  ┌────────────▼────────────┐
+  │  02 · Data & Features    │
+  └────────────┬────────────┘
+               │
+  ┌────────────▼────────────┐            ┌──────────────────────────────────────────┐
+  │  03 · Classical ML       │  ·········▶│  09 · Evaluasi & Interpretasi             │
+  └────────────┬────────────┘            │      (error analysis, SHAP, debugging)     │
+               │                          ├──────────────────────────────────────────┤
+  ┌────────────▼────────────┐            │  10 · Imbalanced Data (fraud/churn/medis)  │
+  │  04 · Deep Learning      │  ·········▶│  11 · Time Series Forecasting              │
+  └──────┬──────────┬────────┘            │  (mulai kapan saja setelah Modul 03)       │
+         │          │                      └──────────────────────────────────────────┘
+  ┌──────▼──────┐ ┌─▼───────────────┐          ▲
+  │ 05 · NLP &  │ │ 06 · Computer   │          ┊  (terapkan ke setiap modul modeling)
+  │     LLM     │ │      Vision     │··········┘
+  └──────┬──────┘ └─┬───────────────┘
+         │          │
+  ┌──────▼──────────▼────────┐
+  │  07 · MLOps & Deployment  │
+  └────────────┬─────────────┘
+               │
+  ┌────────────▼────────────┐
+  │  08 · Projects & Karier  │
+  └─────────────────────────┘
 ```
+
+**Cara membaca:** ikuti **jalur inti 00→08 berurutan** (05/06 pilih sesuai minat). Modul **09–13** adalah topik terapan yang **dikerjakan paralel** begitu prasyaratnya terpenuhi — bukan setelah selesai semua.
 
 ---
 
