@@ -121,3 +121,7 @@ pip install -r requirements.txt
 ---
 
 *Materi ini hidup — perbaiki, tambah catatan, dan sesuaikan dengan kecepatan belajarmu. Selamat belajar! 🚀*
+
+---
+
+> 🤖 **Catatan:** Kurikulum ini dibuat dengan bantuan **Claude** (Anthropic) via [Claude Code](https://claude.com/claude-code). Gunakan sebagai panduan belajar, dan verifikasi konsep penting dengan sumber resmi & praktik langsung.
